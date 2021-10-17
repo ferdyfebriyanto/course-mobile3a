@@ -21,3 +21,5 @@
 - Pada halaman "Reviews" berisi tentang informasi ulasan laptop
 
 - Pada halaman "Videos" berisi tentang informasi review laptop berupa video
+
+- Untuk selanjutnya saya akan membuat list view dari flutter bagian menu "news", "details", dan "about us"
