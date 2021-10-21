@@ -1,0 +1,20 @@
+Satu minggu ini saya telah menemukan suatu tema, minimal yang ingin saya lakukan adalah memperkenalkan salah satu game favorit saya.
+Dan jika saya mampu, mungkin akan memasukkan sedikit penjualan seperti merchandise, musik, dan berbagai sisi lainnya yang tentunya tidak sungguhan.
+
+Beberapa hari terakhir saya menghabiskan waktunya dengan membetulkan bug, mengoptimasi SDK, dan menghubungkan Android Emulator dengan SDK (ini tersulit).
+
+Contohnya terdapat error di bagian R dalam file Main, ternyata solusinya adalah:
+
+import org.aplas.miniproyek.R;
+
+Namun setelah berhari-hari habis untuk membenarkan hal-hal semacam di atas yang muncul terus-terusan setiap 2-3 langkah, akhirnya Android Studio berjalan mulus.
+Akhirnya saya bisa menaruh button, mengatur ConstraintLayout dan memasukkan textView, melalui tutorial tentunya. Namun hanya sebatas itu belum mengatur font dan pewarnaan.
+Fitur-fitur yang rencananya akan saya masukkan adalah:
+1. Search
+2. Pesanan
+3. Deskripsi
+
+Namun sekali lagi jika saya tak mampu membuat fitur semacam pesanan, sekurang-kurangnya saya akan memberikan informasi mengenai game-nya.
+
+Hanya demikian laporan saya selama satu minggu ini, terima kasih.
+
