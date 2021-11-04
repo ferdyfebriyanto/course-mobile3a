@@ -1,0 +1,15 @@
+NIM: 1941720104
+
+Mini Proyek yang telah saya buat adalah tentang RecyclerView dengan CardView. Jika awal push github awalnya saya hanya mempunyai 2 Activity, sekarang sudah diperbarui menjadi 3 Activity.
+Activity pertama adalah halaman pembuka. Activity kedua adalah 10 daftar isi. Activity ketiga adalah detail per daftarnya.
+
+Namun videonya masih belum dibuat karena ketumpuk tugas-tugas lain, dan masalah paling besarnya adalah mungkin di mini proyek 02 akan membuat project baru, tidak meneruskan yang
+dari mini proyek 01, terlebih saya tidak tahu persyaratan minimalnya.
+
+Untuk mini proyek 01 sendiri, mengambil tema game Undertale dengan memasukkan ke sepuluh karakternya ke dalam list di Activity kedua kemudian didetailkan secara tunggal di 
+Activity ketiga, pada dasarnya hanya aplikasi informasi, tak ada fungsi-fungsi lain yang menonjol.
+
+Saya bingung ingin menambahkan apa, saya niatnya ingin mengganti font dan ketajamannya tetapi tak sempat karena ... sekali lagi, ketumpuk tugas lain. Mungkin akan saya perbarui 
+atau saya kembangkan dan perbagus lagi di mini proyek 02 tentang desainnya.
+
+Terima kasih!
