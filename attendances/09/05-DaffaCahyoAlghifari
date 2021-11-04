@@ -1,0 +1,34 @@
+#DaffaCahyoAlghifari
+
+Ada beberapa cara Android dalam menyimpan data aplikasi, seperti Shared Preferences, File, SQLite dan lainnya. 
+Tapi yang hanya akan saya bahas kali ini hanyalah SQLite sebab saya berencana menggunakannya, dengan bantuan tutorial tentunya.
+
+SQLite merupakan sebuah sistem manajemen basisdata relasional yang bersifat ACID-compliant dan memiliki ukuran pustaka kode yang relatif kecil, ditulis dalam bahasa C.
+Mudahnya, SQLite itu jenis database yang ringan dan tersedia dalam OS Android. Ada beberapa jenis database lainnya yang juga sering digunakan oleh para developer 
+seperti salah satu contohnya ialah Realm.
+
+Ada dua tipe data yang dikaitkan secara khusus dengan penggunaan database SQLite, yaitu Cursor dan ContentValues.
+Cursor
+
+1. Cursor
+  SQLiteDatabase selalu menyajikan hasil berupa Cursor dalam format tabel yang menyerupai database SQL. 
+Bisa menganggap data sebagai larik baris dan cursor adalah pointer ke dalam satu baris data terstruktur. 
+Kelas Cursor menyediakan metode untuk menggerakan cursor melalui struktur data, dan metode untuk mendapatkan data dari bidang-bidang setiap baris.
+Kelas Cursor memiliki sejumlah subkelas yang mengimplementasikan cursor untuk tipe data tertentu, yaitu:
+
+  a. SQLiteCursor untuk mengekspos hasil query dari sebuah SQLiteDatabase. SQLiteCursor tidak disinkronkan secara internal, 
+sehingga kode yang menggunakan SQLiteCursor dari beberapa thread harus melakukan sinkronisasi sendiri saat menggunakan SQLiteCursor.
+
+  b. MatrixCursor adalah implementasi cursor lengkap dan tidak tetap, yang didukung oleh larik objek yang secara otomatis meluaskan kapasitas internal bila diperlukan.
+Beberapa operasi umum yang ada pada cursor adalah:
+      - getCount(), mengembalikan jumlah baris dalam cursor.
+      - getColumnNames(), mengembalikan larik string yang berisi nama semua kolom dalam rangkaian hasil dalam urutan pencantumannya dalam hasil/result.
+      - getPosition(), mengembalikan posisi cursor saat ini dalam rangkaian baris.
+        Getter tersedia untuk tipe data tertentu, seperti getString(int column) dan getInt(int column). Operasi seperti moveToFirst() dan moveToNext() akan menggerakan cursor.
+      - close(), membebaskan semua sumber daya dan membuat cursor menjadi tidak valid. Ingat, untuk menutup panggilan, guna membebaskan sumber daya!
+
+2. ContentValues
+  Serupa dengan cara ekstra menyimpan data, instance ContentValues menyimpan data sebagai pasangan nilai kunci, dalam ini kuncinya adalah nama kolom dan nilainya untuk cell. 
+Satu instance ContentValues menyatakan satu baris tabel.
+
+  a. Metode insert() untuk database memerlukan nilai untuk mengisi baris yang diteruskan sebagai instance ContentValues.
