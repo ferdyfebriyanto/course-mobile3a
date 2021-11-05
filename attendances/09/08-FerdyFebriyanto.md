@@ -51,7 +51,7 @@
 * Hanya perlu satu file Preferensi Bersama per aplikasi Beri nama dengan nama paket aplikasi Anda—unik dan mudah dikaitkan dengan aplikasi Argumen MODE untuk getSharedPreferences() adalah untuk kompatibilitas mundur—gunakan hanya MODE_PRIVATE agar aman
 
 
-* Database SQLite Menyimpan data dalam tabel baris dan kolom (spreadsheet…)
+## Database SQLite Menyimpan data dalam tabel baris dan kolom (spreadsheet…)
 
     Field = perpotongan antara baris dan kolom
 
