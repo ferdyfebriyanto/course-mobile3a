@@ -34,4 +34,6 @@ pesan baru di bagian komentar situs web.
     - Baca ulasan panjang kami yang diformat dengan sempurna untuk layar ponsel Anda.
     - Lihat spesfikasi laptop terperinci kami dan bandingkan laptop secara langsung.
 
+- Tujuan dari aplikasi ini sendiri bertujuan untuk memudahkan pemula gadget dalam membeli laptop dengan spesifikasi yang diinginkan. Selain itu dapat membandingkan gadget satu dengan gadget yang lainnya melalui fitur compare. 
+
 
