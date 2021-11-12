@@ -1,0 +1,16 @@
+Di pertemuan minggu ke-10, pembahasan dalam perkuliahan adalah tentang Retrofit, Room, LiveData, dan ViewModel.
+
+Retrofit adalah sebuah library Android untuk melakukan request ke sebuah endpoint REST API.
+Dengan Retrotif kita punya security yang lebih baik untuk pengaksesan, pekerjaan terkait networking dipermudah library Retrofit, dan lain-lain.
+
+Room adalah SQL object mapping library yang kuat, mampu menghasilkan kode android SQLite, menyediakan contoh API untuk database pengguna.
+Terdapat tiga komponen Room, yakni Entity, Dao, dan Database.
+
+LiveData adalah data holder class yang mengetahui perputaran event. LiveData menyimpan value dan membiarkan value tersebut diobservasi.
+Fungsinya adalah terus menjaga pembaharuan UI dengan data paling baru dan terbagus. LiveData sendiri adalah data yang diamati, memberi notifikasi kapan pun data berubah.
+
+ViewModel adalah objek yang memberikan data untuk komponen-kompoenn UI dan yang tak terpengaruh perubahan konfigurasi.
+ViewModel menyajikan data ke UI, datanya bisa datang dari database Room atau sumber lain. Peran ViewModel adalah mengembalikan data, bisa membantu
+mencari atau menciptakan data.
+
+Terima kasih!
