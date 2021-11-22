@@ -1,0 +1,10 @@
+Pertemuan ke-11 mengenai pelajaran sensor. Sensor pada android sendiri sensor built-in yang mengukur gerakan, orientasi, dan berbagai kondisi lingkungan. 
+Sensor ini mampu menyediakan data mentah dengan presisi dan akurasi tinggi, dan berguna jika Anda ingin memantau positioning atau pergerakan tiga dimensi perangkat, 
+atau memantau perubahan di lingkungan sekitar di dekat perangkat. Misalnya, suatu game mungkin akan melacak pembacaan dari sensor gravitasi perangkat untuk 
+menyimpulkan gerakan dan gestur pengguna yang kompleks, seperti kemiringan, goyangan, rotasi, atau ayunan. Demikian juga, aplikasi cuaca mungkin menggunakan sensor 
+suhu dan sensor kelembapan perangkat untuk menghitung dan melaporkan titik embun, atau suatu aplikasi perjalanan mungkin menggunakan sensor medan geomagnetik 
+dan akselerometer untuk melaporkan arah kompas.
+
+Kemudian tentang pengumpulan proyek terakhir, akan menggunakan repo github, kemudian dibagi-bagi per anggota bagian tugasnya, sehingga ketahuan mana yang mengerjakan mana yang
+tidak.  Di dalam rencana project tersebut dibagi menjadi tiga kolom yaitu Todo, In Progress, dan Done. Ketiga kolom tersebut nantinya dapat digunakan sebagai acuan 
+pekerjaan setiap anggota kelompok yang mengerjakan tugas final proyek. 
