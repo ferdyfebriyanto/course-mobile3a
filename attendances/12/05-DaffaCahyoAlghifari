@@ -1,0 +1,14 @@
+Pada pertemuan minggu ke-12, kita mendiskusikan proyek mini 02, tema yang diambil, fungsi, tujuan, dan beberapa hal lainnya.
+Dalam membuat aplikasi, harus mempunyai tujuan dan manfaat untuk banyak orang, mengautomasi masalah alih-alih melakukannya secara manual, tetapi hal paling pentingnya adalah
+harus bermanfaat bagi orang lain, jika tidak kepada orang lain paling tidak untuk diri sendiri.
+
+Tema yang diambil pun bebas asalkan masih bisa dijalankan di mobile. Untuk persyaratan pembuatan aplikasinya sendiri, antara memilih menggunakan MySQLite adalah RES API,
+jika menggunakan API maka sangat disarankan juga menggunakan Firebase, tetapi lebih susah dari MySQLite, namun memilih salah satunya saja sudah cukup untuk mini proyek 02.
+
+API adalah:
+API (Application Programming Interface) merupakan sebuah class, metode, fungsi, dan variabel yang dibutuhkan sebuah aplikasi untuk meminta aplikasi lain untuk melakukan tugas. 
+Pada kasus PHP dan MySQL, API dipakai untuk mengomunikasikan PHP dengan database yang ada di MySQL menggunakan PHP extensions.
+
+MySQLite adalah:
+SQLite adalah database tanpa server dan mandiri. SQLite juga disebut sebagai database tertanam, yang berarti mesin DB berjalan sebagai bagian dari aplikasi. Di sisi lain, MySQL membutuhkan server untuk dijalankan. 
+MySQL akan memerlukan arsitektur klien dan server untuk berinteraksi melalui jaringan.
